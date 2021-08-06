@@ -1,7 +1,13 @@
-body {
-    font-family: 'Raleway', sans-serif;
+* {
+  /* font-family: 'Montserrat', sans-serif; */
+  box-sizing: border-box;
 }
 
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
 
 
  .main {
@@ -15,22 +21,134 @@ body {
     background-repeat: no-repeat;
 }
 
-.wrapper {
-  padding-top: 120px;
-  text-align: center;
+.main {
+  color: #fff;
+  position: relative;
+  
 }
 
-.wrapper h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+.main .title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3.5em;
+
+ 
+}
+
+
+.title h1{
+  text-align: center;
+  font-size: 49px;
+  font-weight: 800;
   color: #fff;
-  font-size: 64px;
+}
+
+.title p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1;
+  padding-top: 1em;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main .title .underline {
+  border: 1px solid white;
+  margin: 0 auto;
+      margin-top: 0px;
+  width: 2em;
+  margin-top: 1em;
+
+}
+
+
+.bottom {
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.bottom p {
+  
+  font-weight: 600;
+  
+  font-size: 49px;
   padding: 0;
   margin: 0;
+  align-self: center;
+ 
 }
 
-@media (max-width: 576px) { 
-  .wrapper h1 {
-    font-size: 36px;
+.bottom .icons {
+  font-size: 49px;
+  position: absolute;
+  right: 50px;
+}
+
+.icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.icon-envelope:before {
+  content: "\f0e0";
+}
+
+@media (max-width: 992px) { 
+  .bottom {
+    flex-direction: column;
   }
+  .bottom p {
+    font-size: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .bottom .icons {
+    position: static;
+  }
+ }
+
+ 
+
+
+ @media (max-width: 576px) {
+
+  .main .title {
+    position: absolute;
+    top: 10%;
+    transform: translateY(0);
+  }
+  
+ }
+
+ @media (max-width: 992px)  and (orientation: landscape) and (max-height: 1080px) {
+   .underline {
+     display: none;
+   }
+
+   .main .title {
+    position: absolute;
+    top: 0%;
+    transform: translateY(0);
+  }
+
+
+   .title p {
+     padding-top: 0em;
+   }
+
+  .bottom {
+    flex-direction: row;
+    bottom: 15%;
+  }
+
  }
