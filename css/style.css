@@ -137,7 +137,7 @@ body {
   }
 
   .bottom {
-    bottom: 12%;
+    bottom: 20%;
   }
 
   .bottom .icons {
@@ -145,10 +145,7 @@ body {
   }
 
 
-  .bottom a {
-    padding-bottom: 1em;
-    display: inline-block;
-  }
+  
   .bottom p {
     font-size: 24px;
   }
