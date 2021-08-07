@@ -33,17 +33,13 @@ body {
 }
 
 .logo img{
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: -62px;
-  top: 32px;
+  width: 300px;
+  height: 100px;
 }
 
 .main .title {
   position: absolute;
   top: 20%;
-  /* transform: translateY(-50%); */
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -54,14 +50,8 @@ body {
 }
 
 
-.title h1{
-  text-align: center;
-  font-size: 49px;
-  font-weight: 800;
-  color: #fff;
-}
 
-.title p {
+.title p, h1 {
   font-size: 20px;
   font-weight: normal;
   line-height: 1.5em;
