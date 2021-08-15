@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?l81mbr');
-  src:  url('../fonts/icomoon.eot?l81mbr#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?l81mbr') format('truetype'),
-    url('../fonts/icomoon.woff?l81mbr') format('woff'),
-    url('../fonts/icomoon.svg?l81mbr#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?54i4wm');
+  src:  url('../fonts/icomoon.eot?54i4wm#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?54i4wm') format('truetype'),
+    url('../fonts/icomoon.woff?54i4wm') format('woff'),
+    url('../fonts/icomoon.svg?54i4wm#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,4 +27,7 @@
 
 .icon-envelope:before {
   content: "\f0e0";
+}
+.icon-linkedin-square:before {
+  content: "\e900";
 }

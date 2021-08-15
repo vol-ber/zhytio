@@ -103,8 +103,8 @@ body {
   text-decoration: none;
 }
 
-.icon-envelope:before {
-  content: "\f0e0";
+.icons a .icon-linkedin-square {
+  font-size: 45px;
 }
 
 @media (max-width: 992px) { 
@@ -148,6 +148,10 @@ body {
   
   .bottom p {
     font-size: 24px;
+  }
+
+  .icons a .icon-linkedin-square {
+    font-size: 37px;
   }
   
  }
